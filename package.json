@@ -1,0 +1,13 @@
+{
+  "name": "what-to-watch",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Elokuva- ja sarjaehdotukset, jotka on tarkistettu valittujen suoratoistopalvelujen oikeasta tarjonnasta.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

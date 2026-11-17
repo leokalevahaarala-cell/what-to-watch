@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: what-to-watch
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: TMDB_API_KEY
+        sync: false
